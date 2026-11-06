@@ -17,7 +17,6 @@ const CATEGORIES = ["All", "Catalogues", "Education", "Healthcare", "Events", "K
 const PROJECTS = [
   // ---- Highlights (shown first) ----
   { catalog: "cat-a", pages: 14, title: "Product Catalog 2026", client: "Metzger", cat: "Catalogues", highlight: true },
-  { n: "79", title: "Root Canal — It Ends Here", client: "Denthetics", cat: "Healthcare", highlight: true },
   { catalog: "cat-b", pages: 4, title: "Medical Equipment Catalogue", client: "AUG Medical", cat: "Catalogues" },
   { n: "02", title: "Pakistan Ki Purity, Har Sip Mein", client: "Drop Water", cat: "Brand Campaigns", highlight: true },
   { n: "41", title: "HND Fashion & Textile", client: "IVY Academic Network", cat: "Education", highlight: true },
@@ -37,7 +36,7 @@ const PROJECTS = [
   { catalog: "cat-c", pages: 2, title: "Video Laryngoscope Brochure", client: "Dahlhausen", cat: "Catalogues" },
 
   // ---- Healthcare: Denthetics (Instagram) ----
-  { n: "77", title: "What Is a Dental Bridge?", client: "Denthetics", cat: "Healthcare" },
+  { n: "77", title: "What Is a Dental Bridge?", client: "Denthetics", cat: "Healthcare", highlight: true },
   { n: "82", title: "Wisdom Tooth Extraction", client: "Denthetics", cat: "Healthcare" },
   { n: "78", title: "Dentures Don't Just Replace Teeth", client: "Denthetics", cat: "Healthcare" },
   { n: "80", title: "A Friendly Reminder", client: "Denthetics", cat: "Healthcare" },
